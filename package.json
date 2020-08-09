@@ -1,0 +1,21 @@
+{
+    "name": "dracula-amethyst",
+    "displayName": "Dracula Amethyst",
+    "description": "Dracula dark theme with amethyst colors details",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula Amethyst",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dracula-amethyst.json"
+            }
+        ]
+    }
+}

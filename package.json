@@ -1,7 +1,7 @@
 {
-    "name": "plokta-theme",
-    "displayName": "Plokta Theme",
-    "description": "Plokta dark theme with amethyst colors details",
+    "name": "plotka-theme",
+    "displayName": "Plotka Theme",
+    "description": "Plotka dark theme made for VSCode with some beautiful colors.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.47.0"
@@ -13,14 +13,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Plokta Amethyst",
+                "label": "Plotka Amethyst",
                 "uiTheme": "vs-dark",
-                "path": "./themes/plokta-amethyst.json"
+                "path": "./themes/plotka-amethyst.json"
             },
             {
-                "label": "Plokta Dark",
+                "label": "Plotka Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/plokta-dark-theme.json"
+                "path": "./themes/plotka-dark-theme.json"
             }
         ]
     }

@@ -3,12 +3,23 @@
     "displayName": "Plotka Theme",
     "description": "Plotka dark theme made for VSCode with normal dark version and amethyst version.",
     "version": "1.2",
+    "icon": "/assets/icon.png",
+    "files": [],
     "engines": {
         "vscode": "^1.47.0"
     },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vilopesp/plotka-vscode-theme.git"
+    },
+
+    "publisher": "vilopesp",
+
     "categories": [
         "Themes"
     ],
+
     "contributes": {
         "themes": [
             {

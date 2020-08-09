@@ -1,20 +1,26 @@
 {
-    "name": "dracula-amethyst",
-    "displayName": "Dracula Amethyst",
-    "description": "Dracula dark theme with amethyst colors details",
+    "name": "plokta-theme",
+    "displayName": "Plokta Theme",
+    "description": "Plokta dark theme with amethyst colors details",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.47.0"
     },
     "categories": [
-        "Themes"
+        "Themes",
+        "Other"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Dracula Amethyst",
+                "label": "Plokta Amethyst",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dracula-amethyst.json"
+                "path": "./themes/plokta-amethyst.json"
+            },
+            {
+                "label": "Plokta Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/plokta-dark-theme.json"
             }
         ]
     }

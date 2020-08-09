@@ -20,7 +20,7 @@
 				"label": "Plotka Amethyst",
 				"uiTheme": "vs-dark",
 				"path": "./themes/plotka-dark-theme.json"
-			},
+			}
         ]
     }
 }

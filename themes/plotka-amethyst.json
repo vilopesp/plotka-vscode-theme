@@ -243,7 +243,6 @@
 			"name": "Punctuation",
 			"scope": [
 				"meta",
-				"meta.brace.round.js",
 				"meta.function-call"
 			],
 			"settings": {
@@ -268,7 +267,6 @@
 			"scope": [
 				"meta.return-type",
 				"support.class",
-				"support.type",
 				"entity.name.type",
 				"entity.name.namespace",
 				"entity.other.attribute",
@@ -321,7 +319,6 @@
 		{
 			"name": "Control flow / Special keywords",
 			"scope": [
-				"keyword.control",
 				"source.cpp keyword.operator.new",
 				"keyword.operator.delete",
 				"keyword.other.using",
@@ -447,7 +444,6 @@
 			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
-
 				"support.constant.handlebars"
 			],
 			"settings": {
@@ -465,13 +461,21 @@
 				"fontStyle": "italic"
 			}
 		},
-
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"support.type",
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#4FC1FF"
+			}
+		},
 		{
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
 				"support.class",
-				"support.type",
 				"entity.name.type",
 				"entity.name.class",
 				"storage.type.numeric.go",
@@ -514,16 +518,14 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#FF82D0",
-				"fontStyle": "bold"
+				"foreground": "#FF82D0"
 			}
 		},
 		{
 			"name": "Control flow keywords",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#FF82D0",
-				"fontStyle": "italic, bold"
+				"foreground": "#FF82D0"
 			}
 		},
 		{
@@ -543,8 +545,7 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#FF82D0",
-				"fontStyle": "bold"
+				"foreground": "#FF82D0"
 			}
 		},
 		{
@@ -564,8 +565,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#FF82D0",
-				"fontStyle": "bold"
+				"foreground": "#FF82D0"
 			}
 		},
 		{
@@ -854,7 +854,12 @@
 			}
 		},
 		{
-			"scope": "string",
+			"name": "Strings JS",
+			"scope": [
+				"string",
+				"string.quoted.double.js"
+			],
+
 			"settings": {
 				"foreground": "#dddddd"
 			}
@@ -993,13 +998,22 @@
 			"scope": [
 				"meta.var.expr",
 				"punctuation.definition.block",
-				"meta.function.js",
 				"keyword.operator.assignment.compound",
 				"punctuation.acessor.js",
 				"punctuation.separator.comma.js"
 			],
 			"settings": {
 				"foreground": "#FFEA77"
+			}
+		},
+		{
+			"name": "Ponctuations",
+			"scope": [
+				"meta.function.js",
+				"meta.brace.round.js"
+			],
+			"settings": {
+				"foreground": "#4FC1FF"
 			}
 		},
 		{
@@ -1029,15 +1043,6 @@
 			],
 			"settings": {
 				"foreground": "#FF3100"
-			}
-		},
-		{
-			"name": "Ponctuations",
-			"scope": [
-				"string.quoted.double.js"
-			],
-			"settings": {
-				"foreground": "#42D0FF"
 			}
 		},
 		{

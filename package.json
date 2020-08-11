@@ -3,7 +3,7 @@
     "displayName": "Plotka Theme",
     "description": "Plotka dark theme made for VSCode with normal dark version and amethyst version.",
     "version": "0.0.1",
-    "icon": "/assets/icon.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.47.0"
     },

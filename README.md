@@ -10,7 +10,7 @@
 
 ## Install
 
-1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=vilopesp.plotka-theme)
 2. Click on the "Install" button
 
 ## Contribute

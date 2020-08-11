@@ -1,6 +1,6 @@
 # PLOTKA VSCODE THEME
 
-![Plotka Theme VSCode]()
+![Plotka Theme VSCode](https://github.com/vilopesp/plotka-vscode-theme/blob/master/assets/thumb.png?raw=true)
 
 ## ABOUT THE THEME
 

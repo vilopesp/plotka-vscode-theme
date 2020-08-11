@@ -1,4 +1,4 @@
-# PLOTKA VSCODE THEME
+<h1 align="center"> PLOTKA VSCODE THEME <h1>
 
 ![Plotka Theme VSCode](https://github.com/vilopesp/plotka-vscode-theme/blob/master/assets/thumb.png?raw=true)
 

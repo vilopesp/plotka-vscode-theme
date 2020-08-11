@@ -1,36 +1,37 @@
 {
-    "name": "plotka-theme",
-    "displayName": "Plotka Theme",
-    "description": "Plotka dark theme made for VSCode with normal dark version and amethyst version.",
-    "version": "1.5.0",
-    "icon": "icon.png",
-    "engines": {
-        "vscode": "^1.47.0"
-    },
-
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vilopesp/plotka-vscode-theme.git"
-    },
-
-    "publisher": "vilopesp",
-
-    "categories": [
-        "Themes"
-    ],
-
-    "contributes": {
-        "themes": [
-            {
-                "label": "Plotka Amethyst",
-                "uiTheme": "vs-dark",
-                "path": "./themes/plotka-amethyst.json"
-            },
-            {
-                "label": "Plotka Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/plotka-dark-theme.json"
-            }
-        ]
-    }
+	"name": "plotka-theme",
+	"displayName": "Plotka Theme",
+	"description": "Plotka dark theme made for VSCode with normal dark version and amethyst version.",
+	"version": "1.5.0",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vilopesp/plotka-vscode-theme.git"
+	},
+	"publisher": "vilopesp",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Plotka Amethyst",
+				"uiTheme": "vs-dark",
+				"path": "./themes/plotka-amethyst.json"
+			},
+			{
+				"label": "Plotka Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/plotka-dark-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c0fdff9a-18fd-4561-8555-abe66a1ff169",
+		"publisherDisplayName": "Vitoria Lopes",
+		"publisherId": "31faced3-d9da-480c-ad47-ff0dfa5f3af9"
+	}
 }

@@ -13,7 +13,7 @@
 1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=vilopesp.plotka-theme)
 2. Click on the "Install" button
 
-### :arrow_heading_down: Directly from Visual Studio Code
+### Directly from Visual Studio Code
 1. Open Extensions menu on the activity bar of VSCode
 2. Search for Plotka Theme
 3. Click on the "Install" button

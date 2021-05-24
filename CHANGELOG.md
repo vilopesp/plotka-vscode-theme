@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 1.2
 
 Dark (default) version add for the theme.
+
+## 1.6 
+
+Dark mode colors updated for new ones.
